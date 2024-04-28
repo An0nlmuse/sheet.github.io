@@ -1,0 +1,132 @@
+A {
+  color: white;
+  text-decoration: none;
+}
+
+A:visited {
+  color: white
+}
+
+A:active {
+  color: white
+}
+
+
+  
+
+
+
+body {
+  margin: 0;
+  background-image: url(background.jpg);
+}
+
+.container {
+  max-width: 2500px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+
+.page {
+  flex-direction: column;
+
+  /*max-width: 1200px;*/
+}
+
+.content {
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+}
+
+
+.h{
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 30px;}
+.blocklist {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.blocklist .block1 {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.blocklist .img {
+  width: 150px;
+}
+
+@media screen and (max-width:720px) {
+
+  .blocklist {
+    flex-wrap: wrap !important;
+  }
+
+  .content {
+    max-width: 700px;
+  }
+}
+
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  z-index: 1000;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.photo-container {
+  position: relative;
+}
+
+.photo {
+  width: 200px;
+  position: absolute;
+  left: 1250px;
+  border: 2px inset black;
+}
+
+.text {
+  margin-right: 220px;
+  margin-left: 20px;
+  font-size: 20px;/* Ширина изображения плюс отступ */
+}
+#big-photo-container {
+  position: fixed;
+  max-width: 1000px;
+  max-height: 2000px;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+}
+
+#big-photo {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,91 @@
+body {
+  background-image: url(background.jpg);
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 80%;
+  max-width: 2500px;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px
+}
+
+.page {
+  flex-direction: column;
+  /*max-width: 1200px;*/
+}
+
+.content {
+  background-color: white;
+}
+
+.blocklist {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.blocklist .block1 {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.blocklist .img{
+  width:150px;
+}
+
+@media screen and (max-width:720px) {
+
+  .blocklist {
+    flex-wrap: wrap !important;
+  }
+
+  .content {
+    max-width: 700px;
+  }
+}
+
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: -50px;
+  max-width: 100%;
+  display: flex;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.photo-container {
+  position: relative;
+}
+
+.photo {
+  width: 200px;
+  position: absolute;
+  left: 1250;
+  top: 50;
+  border: 2px inset black;
+}
+
+.text {
+  margin-right: 220px; /* Ширина изображения плюс отступ */
+}

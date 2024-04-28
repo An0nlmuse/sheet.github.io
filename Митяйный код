@@ -1,0 +1,14 @@
+ .page{
+    flex-direction: column;
+    max-width: 1000px;
+  }
+.container {
+  display:flex;
+  justify-content: center;
+  };
+.content{
+  width:1000px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}

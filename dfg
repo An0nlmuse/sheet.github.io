@@ -1,0 +1,6 @@
+<style>
+  rect {fill:black}
+  @media (prefers-color-scheme:dark){
+    rect{fill:white}}
+</style>
+<svg width="50" height="50" viewBox="0 0 50 50" href="C:\Users\203-1\Desktop\Xyinya a ne sait\yygY0E01.svg">

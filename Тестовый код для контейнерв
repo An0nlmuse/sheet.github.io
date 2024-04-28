@@ -1,0 +1,19 @@
+ .wrapper{
+  max-width: 1170px;
+  margin-left:auto;
+  margin-right: auto;
+ }
+
+
+
+
+ .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;}
+
+
+    <span id="big-photo"></span>
+          <img onclick="open_photo('IMG_20230614_160028.jpg')" class="photo" src="IMG_20230614_160028.jpg">
